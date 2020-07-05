@@ -6,8 +6,8 @@
 
 Este repositorio contiene las funciones y scripts utilizados durante el trabajo final de Grado de Ingeniería de Tecnologías de Telecomunicación. Se tienen dos algoritmos a utilizar ambos desarrollados en MatLab.
 
--FD-SAGE-3D (Frequency Domain Space-Alternating Generalized Expectation-maximization in 3D) Algorithm
--JADE-AML (Joint Azimuth-Delay-Elevation Appoximate Maximum Likelihood) Algorithm
+- FD-SAGE-3D (Frequency Domain Space-Alternating Generalized Expectation-maximization in 3D) Algorithm
+- JADE-AML (Joint Azimuth-Delay-Elevation Appoximate Maximum Likelihood) Algorithm
 
 Adicionalmente se cuenta con una función principal capaz de hallar el Power Delay Profile de un canal.
 
