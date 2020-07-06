@@ -180,7 +180,7 @@ for y = 1:length(Ys)
     aml_azm(y,:)=phi_l;
     aml_ele(y,:)=theta_l;
     aml_toa(y,:)=tof_l;
-    aml_amp(y,:)=10.*log10(beta_l);
+    aml_amp(y,:)=10.*log10(abs(beta_l));
     
 end
 % Fin del algoritmo

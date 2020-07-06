@@ -219,7 +219,7 @@ for y=1:length(Ys)
             end
         end
         %Almacenamos los datos de salida
-        sage_amp(y,:)=ampl;
+        sage_amp(y,:)=10*log10(abs(ampl));
         sage_toa(y,:)=toa;
         sage_aoa(y,:)=OmegaR(1,:);
         sage_eoa(y,:)=OmegaR(2,:);
@@ -228,7 +228,7 @@ for y=1:length(Ys)
     
     
 end
-toc
+
 %Fin del algoritmo
 end
 %--------------PARA REPRESENTACIÓN GRÁFICA AL EJECUTAR COMO SCRIPT---------

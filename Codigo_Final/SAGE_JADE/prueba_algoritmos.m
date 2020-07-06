@@ -10,7 +10,7 @@
 %--------------------------------------------------------------------------
 clc; clear all;
 %% Selección del Escenario
-medida='Medidas/PlanoExterior_Mesa_4x4x3x3';
+medida='Medidas_Usadas/PlanoExterior_Mesa_4x4x3x3';
 L=3;
 iters=3;
 polar=2;
@@ -27,7 +27,7 @@ param='S21';
 %%
 [sage_aoa,sage_eoa,sage_toa,sage_amp]=f_v2_sage_alg(medida,L,iters,polar,param,40);
 %%
-[aml_azm,aml_ele,aml_toa,aml_amp] = jade_alg_alt3(medida,L,iters,polar,param,40);
+[aml_azm,aml_ele,aml_toa,aml_amp] = jade_alg(medida,L,iters,polar,param,40);
 %%
 Ys = 2;
 SNR = 1;
